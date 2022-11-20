@@ -11,6 +11,11 @@ body{
 .container{
 
 }
+
+.green{
+    color: green;
+}
+
 /* HEADER */
 header{
     height: 70px;
@@ -70,4 +75,36 @@ main{
 footer{
     height: 80px;
     background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-sx,
+.footer-center,
+.footer-right{
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    height: 100%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.icon i{
+    margin-bottom: 5px;
+}
+
+.icon.special-icon{
+    background-color: #666;
+    color: red;
+    padding: 20px;
 }
